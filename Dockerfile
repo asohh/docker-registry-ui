@@ -25,6 +25,6 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY dist/ /usr/share/nginx/html/
 COPY favicon.ico /usr/share/nginx/html/
 
-RUN chown nginx: /usr/share/nginx/html/ -R
+
 
 USER nginx
